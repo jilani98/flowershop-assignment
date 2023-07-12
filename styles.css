@@ -11,6 +11,7 @@ header{
     margin-bottom: 50px;
 
 }
+
 .header-img{
     width: 200px;
     height: 300px;
@@ -39,6 +40,10 @@ header{
     gap: 20px;
     margin-bottom: 100px;
     
+}
+
+.item-desc{
+    text-decoration: underline;
 }
 
 
@@ -138,4 +143,36 @@ border-radius: 5px;
     height: 20px;
     border-radius: 5px;
     width: 500px;
+}
+
+.extra{
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: antiquewhite;
+
+margin: 0 auto;
+padding: 50px;
+margin-top: 50px;
+border-radius: 5px;
+}
+
+.containerdesc{
+    width: 200px;
+    margin-left:40px ;
+}
+/* .extrpart{
+    gap: 20px;
+} */
+
+.footerdesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010;
+    color: white;
+    width: 1922px;
+     height: 449px;
+     flex-direction: column;
 }
